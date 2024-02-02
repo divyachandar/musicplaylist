@@ -10,6 +10,7 @@ import {
   Duration,
   DeleteButton,
 } from './styledComponents'
+
 const MusicItem = props => {
   const {MusicItemDetails, onClickDeleteTrack} = props
   const {id, imageUrl, name, genre, duration} = MusicItemDetails
@@ -30,7 +31,7 @@ const MusicItem = props => {
         <Duration>{duration}</Duration>
         <DeleteButton
           type="button"
-          data-testid="delete"
+          data-testId="delete"
           onClick={onDeleteTrack}
         >
           <AiOutlineDelete size={25} />

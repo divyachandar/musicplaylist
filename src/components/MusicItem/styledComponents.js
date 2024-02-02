@@ -1,4 +1,5 @@
-import styled from 'styledComponents'
+import styled from 'styled-components'
+
 export const MusicListItem = styled.li`
   display: flex;
   justify-content: space-between;

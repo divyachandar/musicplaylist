@@ -1,4 +1,4 @@
-import styled from 'styledComponents'
+import styled from 'styled-components'
 
 export const BgContainer = styled.div`
   background-color: #152850;
@@ -6,13 +6,14 @@ export const BgContainer = styled.div`
 `
 
 export const ArtistBg = styled.div`
-background-image:url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png')
-height:450px;
-background-size:cover;
-display:flex;
-flex-direction:column;
-justify-content:flex-end;
-padding-left:100px;`
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  height: 450px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 100px;
+`
 
 export const ArtistName = styled.h1`
   font-family: 'Roboto';

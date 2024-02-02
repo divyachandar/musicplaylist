@@ -100,7 +100,7 @@ class MusicPlayList extends Component {
   state = {searchInput: '', playList: initialTracksList}
 
   onChangeSearchInput = event => {
-    this.setState({searchInput: event.targe.value})
+    this.setState({searchInput: event.target.value})
   }
 
   onClickDeleteTrack = id => {
@@ -124,7 +124,7 @@ class MusicPlayList extends Component {
     )
     return (
       <BgContainer>
-        <ArtistBg data-testid="artist-details">
+        <ArtistBg data-testId="artist-details">
           <ArtistName>
             Ed Sheeran
             <br />
